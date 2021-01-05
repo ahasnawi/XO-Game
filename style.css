@@ -1,0 +1,37 @@
+/* Feel free to change the design  (Not required) */
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td {
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.right-edge {
+    border-bottom: 1px solid #ddd;
+    border-right: none;
+}
+
+.bottom-edge {
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+}
+
+.corner-edge {
+    border-bottom: none;
+    border-right: none;
+}
